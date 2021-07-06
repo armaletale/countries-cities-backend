@@ -5,6 +5,8 @@ const mysql = require("mysql");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
+
+// Connect database to backend
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
